@@ -1,0 +1,20 @@
+# Core CLI framework
+typer>=0.15.4
+click<8.2.0
+
+# Terminal output & formatting
+rich>=12,<14
+
+# Image processing
+Pillow>=10.0.0
+
+# EXIF metadata extraction
+exifread>=3.0.0
+
+# HTTP requests (for reverse geocoding)
+requests>=2.31.0
+
+# Optional: Advanced analysis features (quality, face detection)
+# Uncomment the lines below to enable quality/face detection features
+# opencv-python>=4.8.0
+# numpy>=1.24.0
